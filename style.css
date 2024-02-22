@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.989) ;
+}
+nav{
+    width: 100%;
+    height: 100vh;
+    /* margin: auto; */
+}
+.header{
+    display: flex;
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: red; */
+    
+}
+.Logo img{
+    width: 130px;
+    
+}
+.menu{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.menu li{
+    list-style: none; 
+
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 25px;
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+
+}
+.menu a:hover{
+    border-bottom: 2px solid white;
+    transition: all ease .55s;
+}
+li{
+    list-style: none;
+}
+.fa-solid{
+    color: white;
+    font-size: 35px;
+    /* margin-left: 140px; */
+    cursor: pointer;
+}
+.Container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+.blog{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    height: 80vh;
+}
+.blog-text{
+    color: white;
+    width: 40%;
+    margin: auto;
+}
+.blog-text h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+.blog-text h2{
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 20px;
+    color: rgb(255, 157, 0);
+    letter-spacing: 5px;
+}
+.blog-text h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(208, 255, 0);
+}
+.blog-text p{
+    font-size: 22px;
+}
+.NIKE{
+    width: 40%;
+    margin: auto;
+}
+.NIKE img{
+    width: 600px;
+}
+.NIKE img{
+    
+    border-radius: 50px;
+}
+.blog-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.btn{
+    color: rgb(252, 5, 211);
+    font-size: 15px;
+    background-color: rgb(244, 242, 238);
+    padding: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 50%;
+    
+
+}
+.btn:hover{
+    background-color: chocolate;
+    color: aliceblue;
+    transition: all ease .55s;
+}
+.blog-btn h4{
+    font-size: 30px;
+    font-weight: 1000px;
+}
+@media only screen and (max-width: 600px){
+    .blog{
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .Logo img{
+        width: 80px;
+        
+    }
+    .blog-text{
+        width: 80%;
+        margin: auto;
+    }
+.blog-text h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+
+.blog-text h2{
+    font-size: 30px;
+}
+.NIKE{
+    width: 80%;
+    margin: auto;
+}
+.NIKE img{
+    margin-left: -40px;
+    width: 400px;
+    margin-bottom: 30px;
+    
+}
+.menu a{
+    display: block;
+}
+.btn{
+    color: rgb(252, 5, 211);
+    font-size: 13px;
+    background-color: rgb(244, 242, 238);
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 50%;
+}
+.blog-btn h4{
+    font-size: 25px;
+    font-weight: 1000px;
+}
+.blog-text{
+    margin-top: 50px;
+}
+.menu{
+    display: none;
+}
+.fa-solid{
+    font-size: 30px;
+}
+}
+
+
